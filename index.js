@@ -1,4 +1,4 @@
 // Code your solution in this file
 function findMatching(array, str){
-  array.filter(function (str) {return str === array.toLowerCase()})
+  array.filter(function (str) {return str.toLowerCase() === array})
 }
