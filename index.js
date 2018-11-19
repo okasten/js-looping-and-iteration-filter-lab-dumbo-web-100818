@@ -9,5 +9,6 @@ function fuzzyMatch(array, str){
 }
 
 function matchName(array, str){
+  debugger;
   return array.filter(function (name) {return array[name] === str})
 }
